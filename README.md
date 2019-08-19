@@ -12,10 +12,3 @@ I will also add a few things.(Audio folder,.ini file,callouts and more)
 
 • RagePluginHook
 • LSDFR
-
-# You can upload it as your own version if:
-
-• You are credit me.
-• You did something in this Callout-Pack.
-That means, that you don't just rename it and uploading it as your own.
-

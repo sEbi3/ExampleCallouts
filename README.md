@@ -8,7 +8,7 @@ I will also add a few things.(Audio folder,.ini file,callouts and more)
 1. Drag and drop ExampleCallouts.dll and ExampleCallouts.pdb in GTA5/LSPDFR/Plugins
 2. Start the game and test it.
 
-# Built with
+# Build with
 
 • RagePluginHook
 

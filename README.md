@@ -12,4 +12,4 @@ I will also add a few things.(Audio folder,.ini file,callouts and more)
 
 • RagePluginHook
 
-• LSDFR
+• LSPDFR

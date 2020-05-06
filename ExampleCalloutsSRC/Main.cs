@@ -46,6 +46,7 @@ namespace ExampleCalloutsSRC
             Functions.RegisterCallout(typeof(DrugDeal));
             Functions.RegisterCallout(typeof(CarTrade));
             Functions.RegisterCallout(typeof(WelfareCheck));
+            Functions.RegisterCallout(typeof(Bicycle));
         }
     }
 }

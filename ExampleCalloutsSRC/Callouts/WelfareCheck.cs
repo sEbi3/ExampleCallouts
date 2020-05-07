@@ -25,7 +25,7 @@ namespace ExampleCalloutsSRC.Callouts
         private Vector3 Location4;
         private Vector3 searcharea;
 
-        private Blip myBlip;
+        private Blip Blip;
         private LHandle pursuit;
 
         //Stuff
@@ -125,10 +125,10 @@ namespace ExampleCalloutsSRC.Callouts
         public override bool OnCalloutAccepted()
         {
             searcharea = SpawnPoint.Around2D(1f, 2f);
-            myBlip = new Blip(searcharea, 40f);
-            myBlip.EnableRoute(Color.Yellow);
-            myBlip.Color = Color.Yellow;
-            myBlip.Alpha = 5f;
+            Blip = new Blip(searcharea, 40f);
+            Blip.EnableRoute(Color.Yellow);
+            Blip.Color = Color.Yellow;
+            Blip.Alpha = 5f;
 
             Functions.PlayScannerAudioUsingPosition("UNITS WE_HAVE CRIME_CIVILIAN_NEEDING_ASSISTANCE_02", SpawnPoint);
             Game.DisplayNotification("web_lossantospolicedept", "web_lossantospolicedept", "~w~ExampleCallouts", "~y~WelfareCheck", "~b~Dispatch:~w~ Someone called the police for a welfare check. Search the ~y~yellow area~w~ for the person. Respond with ~y~Code 2");
@@ -140,7 +140,7 @@ namespace ExampleCalloutsSRC.Callouts
         {
             base.OnCalloutNotAccepted();
             if (subject.Exists()) subject.Delete();
-            if (myBlip.Exists()) myBlip.Delete();
+            if (Blip.Exists()) Blip.Delete();
         }
         public override void Process()
         {
@@ -235,7 +235,7 @@ namespace ExampleCalloutsSRC.Callouts
         public override void End()
         {
             if (subject.Exists()) subject.Dismiss();
-            if (myBlip.Exists()) myBlip.Delete();
+            if (Blip.Exists()) Blip.Delete();
             Game.DisplayNotification("web_lossantospolicedept", "web_lossantospolicedept", "~w~ExampleCallouts", "~y~WelfareCheck", "~b~You: ~w~Dispatch we're code 4. Show me ~g~10-8.");
             Functions.PlayScannerAudio("ATTENTION_THIS_IS_DISPATCH_HIGH WE_ARE_CODE FOUR NO_FURTHER_UNITS_REQUIRED");
             base.End();

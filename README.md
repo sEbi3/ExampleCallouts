@@ -38,5 +38,5 @@ If you like my work, please consider supporting me on [**Patreon**](https://www.
 
 --------
 
-##Terms
+## Terms
 You can use and edit this code to your liking. Don't ever claim it to be your own code and provide credit if you are using this code for your project.

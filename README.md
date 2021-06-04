@@ -1,7 +1,8 @@
-# ExampleCallouts
-ExampleCallouts is an open source project and will remain so.
-This project is there for you to see how callouts of this kind are constructed.
-These callouts are from my pack <a href="https://www.lcpdfr.com/downloads/gta5mods/scripts/20730-unitedcallouts-robbery-drugs-burglary-more/">UnitedCallouts</a>
+# ExampleCallouts (discontinued)
+ExampleCallouts is an open source project and will remain so.<br>
+This project is for the ones who would like to see how callouts of this kind are constructed.
+
+<b>ATTENTION</b> - This repo is discontinued. Please use the following link: https://github.com/sEbi3/UnitedCallouts
 
 --------
 
@@ -26,10 +27,10 @@ These callouts are from my pack <a href="https://www.lcpdfr.com/downloads/gta5mo
 --------
 
 ## Current Callouts
-- Welfare check
-- Illegal police car trade
-- Bicycle on the freeway
-- Drug Deal
+- Welfare Check Request
+- Reports of an Illegal Police Car Trade
+- Bicycle on the Freeway
+- Drug Deal in Progress
 
 --------
 
@@ -39,4 +40,4 @@ If you like my work and want access to early-access versions, please consider su
 --------
 
 ## Terms
-You can use and edit this code to your liking. Don't ever claim it to be your own code and provide credit if you are using this code for your project.
+You can use and edit this code to your liking. Don't ever claim it to be your own code and provide credit if you are using this code for your project. You are not allowed to reupload the exact same code. This also includes translations. You can find the full EULA/Terms/License here: https://sebi3.github.io/EULA
